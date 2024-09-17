@@ -45,7 +45,7 @@ function App() {
             end: "1% 0.5%",
             trigger: box,
             scrub: 4,
-            markers: true,
+            // markers: true,
             onEnter: () => {
               setCurrentCity(index);
               onClose();
