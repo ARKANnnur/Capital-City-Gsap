@@ -1,4 +1,4 @@
-import Weather from "../features/weather";
+import Weather from "../features/Weather";
 
 /* eslint-disable react/prop-types */
 function Home({ modal, city, index }) {
