@@ -9,7 +9,7 @@ function Home({ modal, city, index }) {
       <img
         src={`${index}.jpg`}
         className="absolute -z-10 h-dvh w-full bg-center object-cover brightness-75"
-        loading="lazy"
+        loading={index === 1 || index === 2  ? "eager" : "lazy"}
       />
       <div className="z-10 h-full w-full">
         <div className="flex h-1/6 w-full justify-between p-5 text-xl tracking-widest">
